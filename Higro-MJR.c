@@ -86,7 +86,7 @@ void vDisplay(uint8_t cycles,uint8_t mSHT[4])
 		PORTA=0x4F;
 		PORTA=mSHT[3];
 		_delay_ms(3);
-		
+		PORTD=0x00;
 	}
 }
 
